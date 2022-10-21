@@ -12,7 +12,9 @@ and light the way forward in the journey to becoming an AEM developer. ⚔️
 ---
 ---
 
-Dependencies: `Java 11` `Maven` `AEM executable jar`
+Dependencies: `Java 11` `Maven` `AEM quickstart jar`
+
+![alt text](https://github.com/matthew-acn/aem_guide/blob/main/dependencies.png)
 
 
 First, a little house keeping. It is **imperative** to understand and know the following: 
