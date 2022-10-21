@@ -53,7 +53,7 @@ Now on to step one...
 8. Run `git branch -M main`
 9. Run `git remote add origin paste_your_git_repo_url` <-- the actual url in case you are confused
 
-Congratulations!! 🥳 You have successfully initialized a git repository! ✨ Yes, yes, you could have just ran git clone "insert url", but that is entirely too lazy! It is better to wield a higher command of your trade than seek the easy way out.
+Congratulations!! 🥳 You have successfully initialized a git repository! ✨ Yes, yes, you could have just ran `git clone "insert url"`, and that is entirely dealer's choice! However, it is better to wield a higher command of your trade than to seek the easy way out.
 
 
 Now, I want you to pay close attention to the following series of commands... as it is actually one giant command that you will **type and execute on one single line**. It is a maven command. It should go without saying that you have by now properly installed java (**version 11**), maven, and AEM quickstart jar. If for any reason you have not, travel here (insert link to AEM setup guide)
