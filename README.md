@@ -90,5 +90,8 @@ Here is a screenshot from my terminal if you find yourself unsure of how that wo
 ![alt text](https://github.com/matthew-acn/aem_guide/blob/main/mvn%20com.png)
 
 
+Once you have executed the command, run `ls` and `cd` into the aem directory created by the Maven archetype.
 
+If you run `ls` again you should see a file structure similar to my Maven archetype as shown below:
 
+![alt text](https://github.com/matthew-acn/aem_guide/blob/main/Maven%20archetype.png)
