@@ -43,7 +43,7 @@ A developer **MUST** be able to navigate through their respective machine's dire
 
 Now on to step one...
 
-1. In your terminal, execute ` mkdir` (the name is up to you and you alone are at the helm of this journey).
+1. In your terminal, execute ` mkdir` "directory_name" (the name is up to you and you alone are at the helm of this journey).
 2. `cd`into the newly created directory.
 3. Navigate to https://www.github.com and create a new repository.
 4. Back in terminal and within your new directory run `echo "# repo_name_here" >> README.md`
