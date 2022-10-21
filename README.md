@@ -40,8 +40,8 @@ A developer **MUST** be able to navigate through their respective machine's dire
 
 ---
 ---
-
-Now on to step one...
+Create the Directory
+--
 
 1. In your terminal, execute ` mkdir` "directory_name" (the name is up to you and you alone are at the helm of this journey).
 2. `cd`into the newly created directory.
@@ -55,7 +55,8 @@ Now on to step one...
 
 Congratulations!! 🥳 You have successfully initialized a git repository! ✨ Yes, yes, you could have just ran `git clone "insert url"`, and that is entirely dealer's choice! However, it is better to wield a higher command of your trade than to seek the easy way out.
 
-
+Create the Project
+--
 Now, I want you to pay close attention to the following series of commands... as it is actually one giant command that you will **type and execute on one single line**. It is a maven command. It should go without saying that you have by now properly installed Java (**version 11**), Maven, and the AEM quickstart jar. If for any reason you have not, travel here (insert link to AEM setup guide)
 
 Within the same root directory that initialized the git repository, execute the following:
