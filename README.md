@@ -16,6 +16,7 @@ Dependencies: `Java 11` `Maven` `AEM quickstart jar`
 
 ![alt text](https://github.com/matthew-acn/aem_guide/blob/main/dependencies.png)
 
+If you have yet to install the required dependencies, please refer to the guide linked here <-- here will redirect to a setup guide in the repo
 
 First, a little house keeping. It is **imperative** to understand and know the following: 
 * directory
@@ -56,3 +57,36 @@ Congratulations!! 🥳 You have successfully initialized a git repository! ✨ Y
 
 
 Now, I want you to pay close attention to the following series of commands... as it is actually one giant command that you will **type and execute on one single line**. It is a maven command. It should go without saying that you have by now properly installed java (**version 11**), maven, and AEM quickstart jar. If for any reason you have not, travel here (insert link to AEM setup guide)
+
+Within the same root directory that initialized the git repository, execute the following:
+
+mvn -B org.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate 
+
+-D archetypeGroupId=com.adobe.aem 
+
+-D archetypeArtifactId=aem-project-archetype
+
+-D archetypeVersion=35 
+
+-D appTitle="whatever you want to name it" 
+
+-D appId="shortened version of the title name"
+
+-D groupId="com.adobe.aem.anything.you.want" 
+
+-D artifactId="aem-anything"
+
+-D package="com.adobe.aem.anything" 
+
+-D version="0.0.1-SNAPSHOT"
+
+-D aemVersion="cloud"
+
+
+Here is a screenshot from my terminal if you find yourself unsure of how that would look:
+
+![alt text](https://github.com/matthew-acn/aem_guide/blob/main/mvn%20com.png)
+
+
+
+
