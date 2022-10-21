@@ -60,6 +60,7 @@ Now, I want you to pay close attention to the following series of commands... as
 
 Within the same root directory that initialized the git repository, execute the following:
 
+```
 mvn -B org.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate 
 
 -D archetypeGroupId=com.adobe.aem 
@@ -81,6 +82,7 @@ mvn -B org.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate
 -D version="0.0.1-SNAPSHOT"
 
 -D aemVersion="cloud"
+```
 
 
 Here is a screenshot from my terminal if you find yourself unsure of how that would look:
