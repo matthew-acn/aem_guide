@@ -16,7 +16,7 @@ Dependencies: `Java 11` `Maven` `AEM quickstart jar`
 
 ![alt text](https://github.com/matthew-acn/aem_guide/blob/main/dependencies.png)
 
-If you have yet to install the required dependencies, please refer to the guide linked [here](https://www.google.com) <-- here will redirect to a setup guide in the repo
+If you have yet to install the required dependencies, please refer to the guide linked [here](https://github.com/dylansql/aem-guide-dependency-installation.git) <-- here will redirect to a setup guide in the repo
 
 First, a little house keeping. It is **imperative** to understand and know the following: 
 * directory
