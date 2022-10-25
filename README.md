@@ -49,7 +49,7 @@ Create the Directory
 4. Back in terminal and within your new directory run `echo "# repo_name_here" >> README.md`
 5. Run `git init`
 6. Run `git add README.md`
-7. Run `git commit -m "your_message_here"
+7. Run `git commit -m "your_message_here"`
 8. Run `git branch -M main`
 9. Run `git remote add origin paste_your_git_repo_url` <-- the actual url in case you are confused
 
