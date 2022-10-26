@@ -105,7 +105,7 @@ Updating Typescript
 
 If you were to attempt to build your project as is... it would currently fail the build. This is due to a mismatch in the *archetype* and *typescript* version. To remedy this, you will need to follow a few simple steps.
 
-1. In your command line and within the project directory, run `npm typescript@latest -g`
+1. In your command line and within the project directory, run `npm install typescript@latest -g`
 2. Next locate the **package.json** file in the **ui.frontend** directory 
 3.Scroll down to the listed *typescript dependency version*
 4. Update the **package.json** file with the **latest version of typescript**
@@ -118,4 +118,5 @@ Here's a screenshot of my file as it appears in the IntelliJ IDE
 Create a Project Build 
 ---
 
+If you haven't already downloaded and installed **AEM 6.5** please click [here](https://github.com/matthew-acn/aem_guide/blob/main/AEM.md)
 
