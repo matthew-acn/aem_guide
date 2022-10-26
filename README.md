@@ -96,3 +96,24 @@ Once you have executed the command, run `ls` and `cd` into the aem directory cre
 If you run `ls` again you should see a file structure similar to my Maven archetype as shown below:
 
 ![alt text](https://github.com/matthew-acn/aem_guide/blob/main/Maven%20archetype.png)
+
+
+---
+---
+Updating Typescript
+---
+
+If you were to attempt to build your project as is... it would currently fail the build. This is due to a mismatch in the *archetype* and *typescript* version. To remedy this, you will need to follow a few simple steps.
+
+1. In your command line and within the project directory, run `npm typescript@latest -g`
+2. Next locate the **package.json** file in the **ui.frontend** directory 
+3.Scroll down to the listed *typescript dependency version*
+4. Update the **package.json** file with the **latest version of typescript**
+
+Here's a screenshot of my file as it appears in the IntelliJ IDE
+![alt text](https://github.com/matthew-acn/aem_guide/blob/main/Typescript%20version.jpg)
+
+---
+---
+Initialize AEM on Port 4502
+---
