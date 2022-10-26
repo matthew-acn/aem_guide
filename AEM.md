@@ -31,6 +31,9 @@ Initiate AEM on Localhost Port 4502
 2. **Windows Users** may simply *double-click* the .jar file  
 3. Run the following command: `java -jar -Xmx2g cq-quickstart-6.5.0.jar` <--- if you rename the file it should go without saying that you would type the new name in plafe of the aforementioned
 4. Once localhost 4502 appears in your default browser you should see a screen as shown below
-5. Enter in the following credentials: User **admin** PW **admin**
+5. Enter in the following credentials: User **admin** | PW **admin** and sign in
 
 ![alt text](https://github.com/matthew-acn/aem_guide/blob/main/AEM%20admin%20login.jpg)
+
+
+To continue the tutorial, please navigate to the main [README.md](https://github.com/matthew-acn/aem_guide/edit/main/README.md) file
