@@ -60,7 +60,7 @@ Congratulations!! 🥳 You have successfully initialized a git repository! ✨ Y
 ---
 Generate the Maven Archetype
 --
-Now, I want you to pay close attention to the following series of commands... as it is actually one giant command that you will **type and execute on one single line**. It is a maven command. It should go without saying that you have by now properly installed Java (**version 11**), Maven, and the AEM quickstart jar. If for any reason you have not, travel [here](https://github.com/matthew-acn/aem_guide/blob/main/AEM.md).
+Now, I want you to pay close attention to the following series of commands... as it is actually one giant command that you will **type and execute on one single line**. It is a maven command. It should go without saying that you have by now properly installed Java (**version 11**) and Maven. 
 
 Within the same root directory that initialized the git repository, execute the following:
 
