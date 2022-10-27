@@ -16,7 +16,7 @@ Dependencies: `Java 11` `Maven` `AEM quickstart jar` `AEM service package` `Type
 
 ![alt text](https://github.com/matthew-acn/aem_guide/blob/main/dependencies.png)
 
-If you have yet to install the required dependencies, please refer to the guide linked [here](https://github.com/dylansql/aem-guide-dependency-installation) <-- here will redirect to a setup guide in the repo
+If you have yet to install the required dependencies, please refer to the guide linked [here](https://github.com/dylansql/aem-guide-dependency-installation). 
 
 First, a little house keeping. It is **imperative** to understand and know the following: 
 * directory
@@ -60,7 +60,7 @@ Congratulations!! 🥳 You have successfully initialized a git repository! ✨ Y
 ---
 Generate the Maven Archetype
 --
-Now, I want you to pay close attention to the following series of commands... as it is actually one giant command that you will **type and execute on one single line**. It is a maven command. It should go without saying that you have by now properly installed Java (**version 11**), Maven, and the AEM quickstart jar. If for any reason you have not, travel here (insert link to AEM setup guide)
+Now, I want you to pay close attention to the following series of commands... as it is actually one giant command that you will **type and execute on one single line**. It is a maven command. It should go without saying that you have by now properly installed Java (**version 11**), Maven, and the AEM quickstart jar. If for any reason you have not, travel [here](https://github.com/matthew-acn/aem_guide/blob/main/AEM.md).
 
 Within the same root directory that initialized the git repository, execute the following:
 
@@ -113,7 +113,7 @@ If you were to attempt to build your project as is... it would currently fail th
 3.Scroll down to the listed *typescript dependency version*
 4. Update the **package.json** file with the **latest version of typescript**
 
-Here's a screenshot of my file as it appears in the IntelliJ IDE
+Here's a screenshot of my file as it appears in the IntelliJ IDE.
 ![alt text](https://github.com/matthew-acn/aem_guide/blob/main/Typescript%20version.jpg)
 
 ---
@@ -121,12 +121,12 @@ Here's a screenshot of my file as it appears in the IntelliJ IDE
 Create a Project Build 
 ---
 
-If you haven't already downloaded and installed **AEM 6.5** please click [here](https://github.com/matthew-acn/aem_guide/blob/main/AEM.md)
+If you haven't already downloaded and installed **AEM 6.5** please click [here](https://github.com/matthew-acn/aem_guide/blob/main/AEM.md).
 
 1. Ensure you have a local instance of AEM running
 2. `cd` into the directory where you generated the archetype
 3. Run the following command: `mvn clean install -PautoInstallSinglePackage`
 
-**If you have followed the tutorial to the letter, the terminal will out put "Build Success" and are ready to proceed**
-**If you are met with "Build Failure" of any kind, step back thorough the tutorial to find your mistake. And if that should still fail you, take to your search engine of preference and deploy your research skills**
-
+**If you have followed the tutorial to the letter, the terminal will output "Build Success" and you are ready to proceed.**
+**If you are met with "Build Failure" of any kind, step back thorough the tutorial to find your mistake. And if that should still fail you, take to your search engine of preference and deploy your research skills.**
+![alt text](https://github.com/matthew-acn/aem_guide/blob/main/Build%20Success.jpg)
