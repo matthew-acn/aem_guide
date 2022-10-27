@@ -36,4 +36,4 @@ Initiate AEM on Localhost Port 4502
 ![alt text](https://github.com/matthew-acn/aem_guide/blob/main/AEM%20admin%20login.jpg)
 
 
-To continue the tutorial, please navigate to the main [README.md](https://github.com/matthew-acn/aem_guide/edit/main/README.md) file
+To continue the tutorial, please navigate to the main [README.md](https://github.com/matthew-acn/aem_guide#readme) file
