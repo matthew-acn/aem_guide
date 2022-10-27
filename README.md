@@ -12,7 +12,7 @@ and light the way forward in the journey to becoming an AEM developer. ⚔️
 ---
 ---
 
-Dependencies: `Java 11` `Maven` `AEM quickstart jar`
+Dependencies: `Java 11` `Maven` `AEM quickstart jar` `AEM service package` `Typescript` `npm` `node` 
 
 ![alt text](https://github.com/matthew-acn/aem_guide/blob/main/dependencies.png)
 
@@ -55,7 +55,10 @@ Create the Directory
 
 Congratulations!! 🥳 You have successfully initialized a git repository! ✨ Yes, yes, you could have just ran `git clone "insert url"`, and that is entirely dealer's choice! However, it is better to wield a higher command of your trade than to seek the easy way out.
 
-Create the Project
+
+---
+---
+Generate the Maven Archetype
 --
 Now, I want you to pay close attention to the following series of commands... as it is actually one giant command that you will **type and execute on one single line**. It is a maven command. It should go without saying that you have by now properly installed Java (**version 11**), Maven, and the AEM quickstart jar. If for any reason you have not, travel here (insert link to AEM setup guide)
 
@@ -119,4 +122,11 @@ Create a Project Build
 ---
 
 If you haven't already downloaded and installed **AEM 6.5** please click [here](https://github.com/matthew-acn/aem_guide/blob/main/AEM.md)
+
+1. Ensure you have a local instance of AEM running
+2. `cd` into the directory where you generated the archetype
+3. Run the following command: `mvn clean install -PautoInstallSinglePackage`
+
+**If you have followed the tutorial to the letter, the terminal will out put "Build Success" and are ready to proceed**
+**If you are met with "Build Failure" of any kind, step back thorough the tutorial to find your mistake. And if that should still fail you, take to your search engine of preference and deploy your research skills**
 
