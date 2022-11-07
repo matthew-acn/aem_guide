@@ -62,30 +62,30 @@ Generate the Maven Archetype
 --
 Now, I want you to pay close attention to the following series of commands... as it is actually one giant command that you will **type and execute on one single line**. It is a maven command. It should go without saying that you have by now properly installed Java (**version 11**) and Maven. 
 
-Within the same root directory that initialized the git repository, execute the following:
+Within the same root directory that initialized the git repository, execute the following after removing the brackets and choosing naming conventions:
 
 ```
 mvn -B org.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate 
 
--D archetypeGroupId=com.adobe.aem 
+-D archetypeGroupId=com.[name here] 
 
 -D archetypeArtifactId=aem-project-archetype
 
 -D archetypeVersion=35 
 
--D appTitle="whatever you want to name it" 
+-D appTitle=[whatever you want to name it] 
 
--D appId="shortened version of the title name"
+-D appId=shortened version of the title name]
 
--D groupId="com.adobe.aem.anything.you.want" 
+-D groupId=[com.anything.you.want]
 
 -D artifactId="aem-anything"
 
--D package="com.adobe.aem.anything" 
+-D package=[com.anything] 
 
 -D version="0.0.1-SNAPSHOT"
 
--D aemVersion="cloud"
+-D aemVersion="on-premise"
 ```
 
 
