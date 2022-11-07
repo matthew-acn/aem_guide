@@ -67,25 +67,25 @@ Within the same root directory that initialized the git repository, execute the 
 ```
 mvn -B org.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate 
 
--D archetypeGroupId=com.[name here] 
+-D archetypeGroupId=com.adobe.aem 
 
 -D archetypeArtifactId=aem-project-archetype
 
 -D archetypeVersion=35 
 
--D appTitle=[whatever you want to name it] 
+-D appTitle="whatever you want to name it" 
 
--D appId=shortened version of the title name]
+-D appId="shortened version of the title name"
 
--D groupId=[com.anything.you.want]
+-D groupId="com.anything.you.want"
 
 -D artifactId="aem-anything"
 
--D package=[com.anything] 
+-D package="com.anything"
 
 -D version="0.0.1-SNAPSHOT"
 
--D aemVersion="on-premise"
+-D aemVersion="6.5.13"
 ```
 
 
