@@ -1,4 +1,4 @@
-#Building Components in Adobe Experience Manager
+Building Components in Adobe Experience Manager
 ---
 ---
 
