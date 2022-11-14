@@ -9,3 +9,5 @@
 5. Click the box to the left of **en** but *NOT* the *en* with the dropdown icon.
 6. A new tab will appear with an option bar at the top of the screen. Click **Edit**.
 
+Once the page loads, it should look quite similar to the screenshot below:
+![Site](https://github.com/matthew-acn/aem_guide/blob/main/SIte.png)
