@@ -14,7 +14,7 @@ and light the way forward in the journey to becoming an AEM developer. ⚔️
 
 Dependencies: `Java 11` `Maven` `AEM quickstart jar` `AEM service package` `Typescript` `npm` `node` 
 
-![alt text](https://github.com/matthew-acn/aem_guide/blob/main/dependencies.png)
+![Dependencies](https://github.com/matthew-acn/aem_guide/blob/main/dependencies.png)
 
 If you have yet to install the required dependencies, please refer to the guide linked [here](https://github.com/dylansql/aem-guide-dependency-installation). 
 
@@ -91,14 +91,14 @@ mvn -B org.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate
 
 Here is a screenshot from my terminal if you find yourself unsure of how that would look:
 
-![alt text](https://github.com/matthew-acn/aem_guide/blob/main/mvn%20com.png)
+![Maven](https://github.com/matthew-acn/aem_guide/blob/main/mvn%20com.png)
 
 
 Once you have executed the command, run `ls` and `cd` into the aem directory created by the Maven archetype.
 
 If you run `ls` again you should see a file structure similar to my Maven archetype as shown below:
 
-![alt text](https://github.com/matthew-acn/aem_guide/blob/main/Maven%20archetype.png)
+![File Structure](https://github.com/matthew-acn/aem_guide/blob/main/Maven%20archetype.png)
 
 
 ---
@@ -114,7 +114,7 @@ If you were to attempt to build your project as is... it would currently fail th
 4. Update the **package.json** file with the **latest version of typescript**
 
 Here's a screenshot of my file as it appears in the IntelliJ IDE.
-![alt text](https://github.com/matthew-acn/aem_guide/blob/main/Typescript%20version.jpg)
+![File Structure](https://github.com/matthew-acn/aem_guide/blob/main/Typescript%20version.jpg)
 
 ---
 ---
@@ -129,4 +129,6 @@ If you haven't already downloaded and installed **AEM 6.5** please click [here](
 
 **If you have followed the tutorial to the letter, the terminal will output "Build Success" and you are ready to proceed.**
 **If you are met with "Build Failure" of any kind, step back thorough the tutorial to find your mistake. And if that should still fail you, take to your search engine of preference and deploy your research skills.**
-![alt text](https://github.com/matthew-acn/aem_guide/blob/main/Build%20Success.jpg)
+![Build](https://github.com/matthew-acn/aem_guide/blob/main/Build%20Success.jpg)
+
+Upon having success with your build continue onward with [AEM](https://github.com/matthew-acn/aem_guide/blob/main/Components.md)
