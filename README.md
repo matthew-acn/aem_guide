@@ -131,4 +131,4 @@ If you haven't already downloaded and installed **AEM 6.5** please click [here](
 **If you are met with "Build Failure" of any kind, step back thorough the tutorial to find your mistake. And if that should still fail you, take to your search engine of preference and deploy your research skills.**
 ![Build](https://github.com/matthew-acn/aem_guide/blob/main/Build%20Success.jpg)
 
-Upon having success with your build continue onward with [AEM](https://github.com/matthew-acn/aem_guide/blob/main/Components.md)
+Upon having success with your build, continue onward with [AEM](https://github.com/matthew-acn/aem_guide/blob/main/Components.md).
