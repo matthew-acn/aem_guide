@@ -1,4 +1,4 @@
-Building Components in Adobe Experience Manager
+Verifying Build in AEM
 ---
 ---
 
@@ -12,6 +12,5 @@ Building Components in Adobe Experience Manager
 Once the page loads, it should look quite similar to the screenshot below:
 ![Site](https://github.com/matthew-acn/aem_guide/blob/main/SIte.png)
 
-Now, this section of the tutorial will demonstrate how to build out a few basic components. It is at this point where your *intrinsic creativty* merges with your budding *technical understanding* of Adobe's CMS platform. 
+Now, this section of the tutorial was initially meant to demonstrate how to build out a few basic components. However, the authors of this guide have come to a concensus that your journey here must come to an end and continue onward within the official vendor [documentation](https://experienceleague.adobe.com/docs/experience-manager-65/developing/home.html?lang=en). As now you have been armed with the tools to establish a proper AEM development environment... and what waits you now is the amalgamation of your inborn, *intrinsic creativty*  with your budding, *technical understanding* of Adobe's CMS platform. Go forth and code!! 🔥🔥🔥
 
-The naming conventions will be up to you as long as you maintain that standard across your site for the purpose of being organized and *human readable*.
